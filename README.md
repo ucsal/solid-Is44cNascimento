@@ -1,6 +1,13 @@
+ESTRUTURA DE PASTAS
+
+A estrutura da pasta foi organizada por Package by Feature, onde cada pasta representa um conjunto de funcionalidades semelhantes.
+Assim diminuindo o acoplamento entre as classes, e aumentando a coesão.
+
+
 APLICAÇÂO DO SOLID
 
 Os cinco princípios são:
+
 S - Single Responsibility Principle (Princípio da Responsabilidade Única): Uma classe deve ter um, e apenas um, motivo para mudar.
 
 O - Open/Closed Principle (Princípio Aberto-Fechado): Entidades de software (classes, módulos, funções) devem estar abertas para extensão, mas fechadas para modificação.
