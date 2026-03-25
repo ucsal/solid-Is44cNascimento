@@ -1,12 +1,12 @@
-package br.com.ucsal.olimpiadas;
+package br.com.ucsal.olimpiadas.Prova;
 
-import java.util.Scanner;
+import br.com.ucsal.olimpiadas.Config.Config;
 
-import static br.com.ucsal.olimpiadas.Config.provas;
-import static br.com.ucsal.olimpiadas.Config.proximaProvaId;
-import static br.com.ucsal.olimpiadas.Config.in;
+import static br.com.ucsal.olimpiadas.Config.Config.provas;
+import static br.com.ucsal.olimpiadas.Config.Config.proximaProvaId;
+import static br.com.ucsal.olimpiadas.Config.Config.in;
 
-public class Prova {
+public class Prova  {
 
 	private long id;
 	private String titulo;
@@ -28,7 +28,7 @@ public class Prova {
 	}
 
 
-    static void cadastrarProva() {
+	public static void cadastrarProva() {
 
 
 

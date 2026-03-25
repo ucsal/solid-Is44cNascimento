@@ -1,8 +1,8 @@
-package br.com.ucsal.olimpiadas;
+package br.com.ucsal.olimpiadas.User;
 
 
 
-import static br.com.ucsal.olimpiadas.Config.*;
+import static br.com.ucsal.olimpiadas.Config.Config.*;
 
 public class Participante {
 	private long id;
@@ -35,7 +35,7 @@ public class Participante {
 		this.email = email;
 	}
 
-    static void cadastrarParticipante() {
+	public static void cadastrarParticipante() {
 
 
         System.out.print("Nome: ");

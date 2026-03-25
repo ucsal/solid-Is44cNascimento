@@ -1,18 +1,17 @@
-package br.com.ucsal.olimpiadas;
+package br.com.ucsal.olimpiadas.Estrutura;
 
-import java.util.Scanner;
+import static br.com.ucsal.olimpiadas.Estrutura.Seed.seed;
+import static br.com.ucsal.olimpiadas.Prova.AplicarProva.aplicarProva;
+import static br.com.ucsal.olimpiadas.Config.Config.in;
+import static br.com.ucsal.olimpiadas.Prova.Prova.cadastrarProva;
+import static br.com.ucsal.olimpiadas.Prova.Questao.cadastrarQuestao;
 
-import static br.com.ucsal.olimpiadas.AplicarProva.aplicarProva;
-import static br.com.ucsal.olimpiadas.Config.in;
-import static br.com.ucsal.olimpiadas.Participante.cadastrarParticipante;
-import static br.com.ucsal.olimpiadas.Prova.cadastrarProva;
-import static br.com.ucsal.olimpiadas.Questao.cadastrarQuestao;
-import static br.com.ucsal.olimpiadas.Seed.seed;
-import static br.com.ucsal.olimpiadas.Tentativa.listarTentativas;
+import static br.com.ucsal.olimpiadas.Prova.Tentativa.listarTentativas;
+import static br.com.ucsal.olimpiadas.User.Participante.cadastrarParticipante;
 
 public class Menu {
 
-    static void iniciar(){
+    public static void iniciar(){
         seed();
 
 

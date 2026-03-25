@@ -1,11 +1,12 @@
-package br.com.ucsal.olimpiadas;
+package br.com.ucsal.olimpiadas.Prova;
+
+import br.com.ucsal.olimpiadas.Config.Config;
 
 import java.util.Arrays;
 
 
-import static br.com.ucsal.olimpiadas.App.*;
-import static br.com.ucsal.olimpiadas.Config.*;
-import static br.com.ucsal.olimpiadas.Escolher.escolherProva;
+import static br.com.ucsal.olimpiadas.Config.Config.*;
+import static br.com.ucsal.olimpiadas.Prova.Escolher.escolherProva;
 
 public class Questao {
 
@@ -51,7 +52,7 @@ public class Questao {
 	}
 
 
-    static void cadastrarQuestao() {
+	public static void cadastrarQuestao() {
         if (Config.provas.isEmpty()) {
             System.out.println("não há provas cadastradas");
             return;

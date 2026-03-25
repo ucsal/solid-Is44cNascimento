@@ -1,10 +1,10 @@
-package br.com.ucsal.olimpiadas;
+package br.com.ucsal.olimpiadas.Prova;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import static br.com.ucsal.olimpiadas.Config.tentativas;
-import static br.com.ucsal.olimpiadas.CalcularNota.calcularNota;
+import static br.com.ucsal.olimpiadas.Config.Config.tentativas;
+import static br.com.ucsal.olimpiadas.Prova.CalcularNota.calcularNota;
 
 public class Tentativa {
 	private long id;
@@ -43,7 +43,7 @@ public class Tentativa {
 
 
 
-    static void listarTentativas() {
+	public static void listarTentativas() {
         System.out.println("\n--- Tentativas ---");
         for (var t : tentativas) {
             System.out.printf("#%d | participante=%d | prova=%d | nota=%d/%d%n", t.getId(), t.getParticipanteId(),

@@ -1,16 +1,19 @@
-package br.com.ucsal.olimpiadas;
+package br.com.ucsal.olimpiadas.Prova;
+
 
 import java.util.Scanner;
 
-import static br.com.ucsal.olimpiadas.Config.*;
-import static br.com.ucsal.olimpiadas.CalcularNota.calcularNota;
-import static br.com.ucsal.olimpiadas.Escolher.escolherProva;
-import static br.com.ucsal.olimpiadas.Escolher.escolherParticipante;
-import static br.com.ucsal.olimpiadas.Tabuleiro.imprimirTabuleiroFen;
+import static br.com.ucsal.olimpiadas.Config.Config.*;
+import static br.com.ucsal.olimpiadas.Prova.CalcularNota.calcularNota;
+
+import static br.com.ucsal.olimpiadas.Estrutura.Tabuleiro.imprimirTabuleiroFen;
+import static br.com.ucsal.olimpiadas.Prova.Escolher.escolherProva;
+import static br.com.ucsal.olimpiadas.Prova.Escolher.escolherParticipante;
+
 
 public class AplicarProva {
 
-    static void aplicarProva() {
+    public static void aplicarProva() {
 
         Scanner in = new Scanner(System.in);
 

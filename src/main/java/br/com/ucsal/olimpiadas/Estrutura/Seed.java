@@ -1,6 +1,9 @@
-package br.com.ucsal.olimpiadas;
+package br.com.ucsal.olimpiadas.Estrutura;
 
-import static br.com.ucsal.olimpiadas.Config.*;
+import br.com.ucsal.olimpiadas.Prova.Prova;
+import br.com.ucsal.olimpiadas.Prova.Questao;
+
+import static br.com.ucsal.olimpiadas.Config.Config.*;
 
 public class Seed {
 
@@ -15,7 +18,6 @@ public class Seed {
         var q1 = new Questao();
         q1.setId(proximaQuestaoId++);
         q1.setProvaId(prova.getId());
-
         q1.setEnunciado("""
 				Questão 1 — Mate em 1.
 				É a vez das brancas.

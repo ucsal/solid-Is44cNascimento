@@ -1,6 +1,6 @@
-package br.com.ucsal.olimpiadas;
+package br.com.ucsal.olimpiadas.Estrutura;
 
-public class Tabuleiro {
+public interface Tabuleiro {
     static void imprimirTabuleiroFen(String fen) {
 
         String parteTabuleiro = fen.split(" ")[0];
