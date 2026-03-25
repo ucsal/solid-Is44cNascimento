@@ -1,4 +1,4 @@
-ESTRUTURA DE PASTAS
+<img width="512" height="512" alt="image" src="https://github.com/user-attachments/assets/d30e60bb-4e76-4dd4-8dcd-af3466ef0587" /> ESTRUTURA DE PASTAS
 
 A estrutura da pasta foi organizada por Package by Feature, onde cada pasta representa um conjunto de funcionalidades semelhantes.
 Assim diminuindo o acoplamento entre as classes, e aumentando a coesão.
