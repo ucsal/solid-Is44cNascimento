@@ -3,6 +3,10 @@
 A estrutura da pasta foi organizada por Package by Feature, onde cada pasta representa um conjunto de funcionalidades semelhantes.
 Assim diminuindo o acoplamento entre as classes, e aumentando a coesão.
 
+DEFINIÇÃO PACKAGE BY FEATUARE:é um estilo de arquitetura de software que organiza o 
+código agrupando arquivos (classes, controllers, serviços)
+por funcionalidade de negócio, em vez de camadas técnicas
+
 
 APLICAÇÂO DO SOLID
 
@@ -21,4 +25,21 @@ D - Dependency Inversion Principle (Princípio da Inversão de Dependência): M�
 
 APP: Anteriormente essa classe possuia varias funções atribuidas, aplicando o principio 'Single Responsibility Principle' (Princípio da Responsabilidade Única)
 foi criado uma classe para cada função, e funções foram tranferidas para outras classes existentes.
+
+
+O - Open/Closed Principle (Princípi o Aberto-Fechado): Todas as classes possuem atributos Private 
+que podem ser acessados através de subclasses publicas
+
+
+Seed: a semente da tabela virou uma classe idependente para seguir o princípio "S".
+
+
+Tabuleiro: a classe tabuleiro virou uma interface que pode ser implementada no codigo 
+
+Config: Inicialmente a proposta era se o local onde ficaria a "configuração", que seriam os dados inicias.
+
+
+
+
+
 
